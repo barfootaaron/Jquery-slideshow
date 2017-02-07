@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jquery Slideshow</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+	<header class="col-sm-12" id="header">
+		<h1>SlideShow</h1>
+		<div id="button-container"><input type="button" id="auto" value="Rotate"></div>
+		<input type="button" id="stopBtn" value="Stop" hidden="true"><br>
+		<select id="interval">
+			<option value="1">1 Second </option>
+			<option value="2">2 Seconds</option>
+			<option value="3">3 Seconds</option>
+			<option value="10">10 Seconds</option>
+		</select>
+	</header>
+
+	<div id="main-container" class="row"></div>
+
+	<div id="main-container" class="row">
+			<!-- LEFT SIDEBAR -->
+			<div class="col-xs-2 sidebar">
+				<a href="#"><img src="img/left-arrow.png" class="side-arrow" id="left-arrow"></a>
+			</div>
+
+			<!-- MAIN CONTENT -->
+		<div class="col-sm-8" id="main-content">
+			<div id="image-container" class="col-sm-12">
+				<img src="#" id="main-image">
+				<p id="imageDesc"></p>
+			<input type="button" id="stopBtn" value="Stop" hidden="true">
+			</div>
+		</div>
+			<!-- RIGHT SIDEBAR -->
+		<div class="col-sm-2 sidebar">
+			<a href="#"><img src="img/right-arrow.png" class="side-arrow" id="right-arrow"></a>
+		</div>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+		crossorigin="anonymous"></script>
+	<script type="text/javascript" src="javascripts/main.js"></script>
+</body>
+</html>

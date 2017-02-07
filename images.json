@@ -1,0 +1,28 @@
+[
+	{
+		"url":"img/slide1.jpg",
+		"desc":"What does the Sun look like in all three spatial dimensions? To find out, NASA launched two STEREO satellites to perceive three dimensions on the Sun much like two eyes allow humans to perceive three dimensions on the Earth.",
+		"index": 0
+	},
+	{
+		"url":"img/slide2.jpg",
+		"desc":"Such a perspective is designed to allow new insight into the surface of the rapidly changing Sun, allowing humans to better understand and predict things like Coronal Mass Ejections and solar flares that affect the Earth as well as satellites and astronauts orbiting the Earth.",
+		"index": 1
+	},
+	{
+		"url":"img/slide3.jpg",
+		"desc":"Pictured above are two simultaneous images of the Sun taken by STEREO A and STEREO B, now digitally combined to give one of the first 3-D pictures of the Sun ever taken",
+		"index": 2
+	},
+	{
+		"url":"img/slide4.jpg",
+		"desc":"To fully appreciate the image, one should view it with 3-D red-blue glasses. The teeming and bubbling solar surface can be seen sporting a prominent solar prominence near the top of the image.",
+		"index": 3
+	},
+	{
+		"url":"img/slide5.jpg",
+		"desc":"Pictured above are two simultaneous images of the Sun taken by STEREO A and STEREO B, now digitally combined to give one of the first 3-D pictures of the Sun ever taken",
+		"index": 4
+	}
+
+]

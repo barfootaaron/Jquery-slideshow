@@ -1,0 +1,15 @@
+
+
+.side-arrow {
+	margin: 10%;
+	height: 5em;
+	width: 5em;
+}
+
+#main-image {
+	display: block;
+	text-align: center;
+	height: 75%;
+	width: 75%;
+	margin: 2em auto 75px auto;
+}
